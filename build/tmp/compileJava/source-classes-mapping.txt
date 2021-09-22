@@ -1,0 +1,2 @@
+ru/yarieva/Main.java
+ ru.yarieva.Main
