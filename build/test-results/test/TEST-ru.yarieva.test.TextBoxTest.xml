@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.yarieva.test.TextBoxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-22T20:43:12" hostname="DESKTOP-53T793L" time="4.344">
+<testsuite name="ru.yarieva.test.TextBoxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-23T20:12:46" hostname="DESKTOP-53T793L" time="1.064">
   <properties/>
-  <testcase name="fillFormTest()" classname="ru.yarieva.test.TextBoxTest" time="4.344"/>
+  <testcase name="fillFormTest()" classname="ru.yarieva.test.TextBoxTest" time="1.064"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 14 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\yarie\IdeaProjects\homework2\build\downloads\1632343392104_26072_14
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\yarie\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 36551
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\yarie\IdeaProjects\homework2_new\build\downloads\1632427963311_11164_14
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 94.0.4606.41 (resolved driver for Chrome 94)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\yarie\.cache\selenium\chromedriver\win32\94.0.4606.41\chromedriver.exe
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 22578
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-сент. 22, 2021 11:43:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+сент. 23, 2021 11:12:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=93.0.4577.82 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=94.0.4606.54 Platform=WINDOWS
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.24.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 14: ChromeDriver -> ChromeDriver: chrome on WINDOWS (ef9b899a36c60030cc3f8f2ebb964d27)
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 14: ChromeDriver -> ChromeDriver: chrome on WINDOWS (2954b8bd8ecef2730a284bafc9d4a927)
 ]]></system-err>
 </testsuite>
