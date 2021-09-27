@@ -5,3 +5,5 @@
 <br> 2. Создайте новый проект для домашнего задания https://github.com/new </br>
 <br> 3. Разработайте автотест на проверку формы https://demoqa.com/automation-practice-form </br>
 <br> 4. Запушьте код в свой репозиторий и дайте на него ссылку в качестве ответа на домашнее задание </br>
+
+<br> Решение задания находится в папке homework2/src/test/java/ru/yarieva/test/RegistrationFormTests </br>
