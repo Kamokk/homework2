@@ -78,8 +78,6 @@ $("#uploadPicture").uploadFromClasspath("img/JoyCorp.jpg");
                text("JoyCorp.jpg"), text("Volgogradsky prospect, 21 st9"), text("Haryana Karnal"));
 
 
-        //close
-        $("#closelargeModal").click();
-
+      
     }
 }
