@@ -2,6 +2,7 @@ package ru.yarieva.test;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.commands.SelectRadio;
+import com.codeborne.selenide.selector.ByText;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -68,38 +69,14 @@ $("#uploadPicture").uploadFromClasspath("img/JoyCorp.jpg");
 
         //Table
         //title
-        $(".modal-title").shouldHave(text("Thanks for submitting the form"));
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
 
         //Student Name
 
-        $(".table-responsive").$(byText("Student Name")).shouldHave(text("Mira Smith"));
+        $(".table-responsive").shouldHave( text("Student Name"), text ("Mira Smith"), text("Mira@mail.ru"),
+                text("Female"), text("7980250786"),text("10 September,2007"), text("Hindi"),text("Music"),
+               text("JoyCorp.jpg"), text("Volgogradsky prospect, 21 st9"), text("Haryana Karnal"));
 
-        //Student Email
-        $(".table-responsive").$(byText("Student Email")).shouldHave(text("Mira@mail.ru"));
-
-        //Gender
-        $(".table-responsive").$(byText("Gender")).shouldHave(text("Female"));
-
-        //Mobile
-        $(".table-responsive").$(byText("Mobile")).shouldHave(text("7980250786"));
-
-        //
-        $(".table-responsive").$(byText("Date of Birth")).shouldHave(text("10 September,2007"));
-
-        //Subjects
-        $(".table-responsive").$(byText("Date of Birth")).shouldHave(text("Hindi"));
-
-        //Hobbies
-        $(".table-responsive").$(byText("Hobbies")).shouldHave(text("Music"));
-
-        //Picture
-        $(".table-responsive").$(byText("Picture")).shouldHave(text("JoyCorp.jpg"));
-
-        //Address
-        $(".table-responsive").$(byText("Picture")).shouldHave(text("Volgogradsky prospect, 21 st9"));
-
-        //State and City
-        $(".table-responsive").$(byText("State and City")).shouldHave(text("Haryana Karnal"));
 
         //close
         $("#closelargeModal").click();

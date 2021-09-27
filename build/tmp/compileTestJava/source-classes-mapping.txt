@@ -1,4 +1,4 @@
-ru/yarieva/docs/DemoOATest.java
- ru.yarieva.docs.DemoOATest
 ru/yarieva/test/RegistrationFormTests.java
  ru.yarieva.test.RegistrationFormTests
+ru/yarieva/docs/DemoOATest.java
+ ru.yarieva.docs.DemoOATest
